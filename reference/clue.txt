@@ -1,0 +1,12 @@
+Advanced Clue Logic
+
+1. Mark down how many cards each player received.
+2. Mark down the cards you received. Mark down that the other players DON'T have those cards.
+3. When you guess, mark down whomever shows you a card.
+4. When you guess and someone shows you a card, decrement their unknown cards counter.
+4. When you guess, mark down any player who DOESN'T have the cards you guess.
+5. When someone else guesses, mark down the group of cards they guessed. Check the state of the cards they guessed.
+6. When someone else guesses, mark down all the players who DON'T have the cards guessed.
+7. When someone else guesses, mark down the player who showed a card and the cards it could be (up to three -- some may be 'dead').
+8. If you ever see that no player has a card, it must be in the case file.
+9. Whenever the location of a card is found, search back through all guesses and reveals, and mark that card as certain or impossible.
